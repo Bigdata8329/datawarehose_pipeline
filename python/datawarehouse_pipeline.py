@@ -32,3 +32,5 @@ df_filtered.show()
 
 # Write transformed data to destination
 df_filtered.write.format(config["data"]["output"]["format"]).save(config["data"]["output"]["path"])
+
+print (This is a Python pipeline)
